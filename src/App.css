@@ -1,0 +1,42 @@
+body{
+  background-color: blueviolet;
+}
+.container{
+  background-color: aquamarine;
+  width:500px;
+  min-height: 500px;
+  margin:50px auto;
+  border-radius:25px;
+
+}
+.to-do-form input{
+  background-color:gold;
+  width:250px;
+  padding:10px;
+  margin:30px;
+  border:none;
+  border-radius:25px;
+
+}
+.to-do-form input::placeholder{
+  text-align: center;
+}
+.to-do-form input:focus{
+  outline: none;
+}
+.to-do-form button{
+  border:1px solid blue;
+  background-color: white;
+  color:blue;
+  width:60px;
+  padding:10px;
+  cursor: pointer;
+}
+.bodymy{
+  overflow:auto;
+  width:400px;
+  height:400px;
+}
+.bodymy::-webkit-scrollbar{
+  display: none;
+}

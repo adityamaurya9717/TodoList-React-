@@ -1,0 +1,36 @@
+.listitem{
+    margin:10px;
+    padding:10px;
+    background-color: cadetblue;
+    display:flex;
+    height:40px;
+    flex-direction: row; 
+    position: relative;
+    border-radius: 10px;
+
+}
+.listitem div{
+    position: absolute;
+    right:10px;
+    top:25%;
+    
+}
+.listitem div button{
+    padding:10px;
+    border:none;
+    background-color:red;
+    color:white;
+    border-radius: 10px;
+}
+.listitem div button:hover{
+    background-color: white;
+    color:red;
+    border:1px solid red;
+}
+input{
+    border:none;
+    background-color: cadetblue ;
+}
+input:focus{
+    outline:none;
+}
